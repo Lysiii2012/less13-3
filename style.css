@@ -1,0 +1,20 @@
+.task{
+    margin: 0 0 13px;
+    width: 200px; 
+    display: flex;
+    background: #888;
+    padding: 10px;
+    border-radius: 10px;
+}
+.task button{
+    display: block;
+    margin-left: auto;
+    background: cornflowerblue;
+}
+#todo-list{
+    padding-left: 0 ;
+}
+#add-task{
+    background: red;
+    color: #fff;
+}
