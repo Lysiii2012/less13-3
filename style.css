@@ -1,14 +1,18 @@
 .task{
     margin: 0 0 13px;
-    width: 200px; 
+    width: 400px; 
     display: flex;
-    background: #888;
+    align-items: center;
+    gap: 10px;
+    background: #cdcdcd;
     padding: 10px;
     border-radius: 10px;
 }
 .task button{
     display: block;
+    padding: 10px;
     margin-left: auto;
+    border: none;
     background: cornflowerblue;
 }
 #todo-list{
@@ -17,4 +21,10 @@
 #add-task{
     background: red;
     color: #fff;
+}
+.task span{
+    text-transform: capitalize;
+}
+.task.completed span, .task.completed button{
+    text-decoration: line-through;
 }
